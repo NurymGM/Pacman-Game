@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:title" content="Pac-Man" />
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="Website" />
+    
+    <link rel='icon' type='image/png' href='./img/pacman-favicon.png'>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <title> Pacman Game </title>
+    <meta name = "keywords" content = "HTML, CSS, JavaScript, Pac-Man" />
+    <meta name = "description" content = "Javascript Pac-Man" />
+    <meta name = "author" contnet = "Brad Fabian"/>
+</head>
+<body>
+    <main class='container'>
+        <div class='pacman-family'>
+            <div class="pacman__body">
+                <div class="pacman__eye"></div>
+                <div class="pacman__mouth"></div>
+              </div>
+        </div>
+    <div class='container'>
+    <h1> Pacman </h1>
+    <p> Use Keyboard Arrows To Move PacMan </p>
+    <h3>Score: <span id='score'></span></h3>
+        <div class="grid board">
+        
+        </div>
+        <button id='restart'><span class='insert'>Insert</span> Coins</button>
+    </div>
+    <div class='pacman-ghosts'>
+        <div class="ghost__clyde ghost_character">
+            <div class='eyes'></div>
+            <div class='skirt'></div>
+        </div>
+        <div class="ghost__pinky ghost_character">
+            <div class='eyes'></div>
+            <div class='skirt'></div>
+        </div>
+        <div class="ghost__inky ghost_character">
+            <div class='eyes'></div>
+            <div class='skirt'></div>
+        </div>
+        <div class="ghost__blinky ghost_character">
+            <div class='eyes'></div>
+            <div class='skirt'></div>
+        </div>
+
+    </div>
+    
+    </main>
+    
+    <script src='./js/app.js'></script>
+</body>
+</html>
